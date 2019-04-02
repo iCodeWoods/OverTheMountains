@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F349AD52253621200174EC6 /* RestartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F349ACD2253621200174EC6 /* RestartButton.m */; };
+		2F349AD62253621200174EC6 /* PlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F349AD02253621200174EC6 /* PlayerNode.m */; };
+		2F349AD72253621200174EC6 /* StickNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F349AD12253621200174EC6 /* StickNode.m */; };
+		2F349AD82253621200174EC6 /* PillarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F349AD32253621200174EC6 /* PillarNode.m */; };
+		2F349ADE2253622600174EC6 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F349ADC2253622600174EC6 /* GameScene.m */; };
+		2F349ADF2253622600174EC6 /* BeginScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F349ADD2253622600174EC6 /* BeginScene.m */; };
+		2F8EBA3A224CF21200669F07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8EBA39224CF21200669F07 /* AppDelegate.m */; };
+		2F8EBA44224CF21200669F07 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8EBA43224CF21200669F07 /* GameViewController.m */; };
+		2F8EBA47224CF21200669F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8EBA45224CF21200669F07 /* Main.storyboard */; };
+		2F8EBA49224CF21300669F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8EBA48224CF21300669F07 /* Assets.xcassets */; };
+		2F8EBA4C224CF21300669F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8EBA4A224CF21300669F07 /* LaunchScreen.storyboard */; };
+		2F8EBA4F224CF21300669F07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8EBA4E224CF21300669F07 /* main.m */; };
+		2FECE59E2251F6B700381E8B /* PlayerImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2FECE59D2251F6B700381E8B /* PlayerImages.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F349ACD2253621200174EC6 /* RestartButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestartButton.m; sourceTree = "<group>"; };
+		2F349ACE2253621200174EC6 /* StickNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickNode.h; sourceTree = "<group>"; };
+		2F349ACF2253621200174EC6 /* PillarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PillarNode.h; sourceTree = "<group>"; };
+		2F349AD02253621200174EC6 /* PlayerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerNode.m; sourceTree = "<group>"; };
+		2F349AD12253621200174EC6 /* StickNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickNode.m; sourceTree = "<group>"; };
+		2F349AD22253621200174EC6 /* RestartButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestartButton.h; sourceTree = "<group>"; };
+		2F349AD32253621200174EC6 /* PillarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PillarNode.m; sourceTree = "<group>"; };
+		2F349AD42253621200174EC6 /* PlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerNode.h; sourceTree = "<group>"; };
+		2F349ADA2253622600174EC6 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		2F349ADB2253622600174EC6 /* BeginScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeginScene.h; sourceTree = "<group>"; };
+		2F349ADC2253622600174EC6 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		2F349ADD2253622600174EC6 /* BeginScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeginScene.m; sourceTree = "<group>"; };
+		2F8EBA35224CF21200669F07 /* OverTheMountains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverTheMountains.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8EBA38224CF21200669F07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F8EBA39224CF21200669F07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F8EBA42224CF21200669F07 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		2F8EBA43224CF21200669F07 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		2F8EBA46224CF21200669F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F8EBA48224CF21300669F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F8EBA4B224CF21300669F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F8EBA4D224CF21300669F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8EBA4E224CF21300669F07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FECE59D2251F6B700381E8B /* PlayerImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerImages.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8EBA32224CF21200669F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F349ACC2253621200174EC6 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				2F349ACF2253621200174EC6 /* PillarNode.h */,
+				2F349AD32253621200174EC6 /* PillarNode.m */,
+				2F349ACE2253621200174EC6 /* StickNode.h */,
+				2F349AD12253621200174EC6 /* StickNode.m */,
+				2F349AD42253621200174EC6 /* PlayerNode.h */,
+				2F349AD02253621200174EC6 /* PlayerNode.m */,
+				2F349AD22253621200174EC6 /* RestartButton.h */,
+				2F349ACD2253621200174EC6 /* RestartButton.m */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		2F349AD92253622600174EC6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2F349ADA2253622600174EC6 /* GameScene.h */,
+				2F349ADC2253622600174EC6 /* GameScene.m */,
+				2F349ADB2253622600174EC6 /* BeginScene.h */,
+				2F349ADD2253622600174EC6 /* BeginScene.m */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2F349AE02253624600174EC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FECE59D2251F6B700381E8B /* PlayerImages.atlas */,
+				2F8EBA48224CF21300669F07 /* Assets.xcassets */,
+				2F8EBA4A224CF21300669F07 /* LaunchScreen.storyboard */,
+				2F8EBA45224CF21200669F07 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F8EBA2C224CF21200669F07 = {
+			isa = PBXGroup;
+			children = (
+				2F8EBA37224CF21200669F07 /* OverTheMountains */,
+				2F8EBA36224CF21200669F07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F8EBA36224CF21200669F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8EBA35224CF21200669F07 /* OverTheMountains.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F8EBA37224CF21200669F07 /* OverTheMountains */ = {
+			isa = PBXGroup;
+			children = (
+				2F8EBA38224CF21200669F07 /* AppDelegate.h */,
+				2F8EBA39224CF21200669F07 /* AppDelegate.m */,
+				2F8EBA42224CF21200669F07 /* GameViewController.h */,
+				2F8EBA43224CF21200669F07 /* GameViewController.m */,
+				2F349AD92253622600174EC6 /* Scenes */,
+				2F349ACC2253621200174EC6 /* Nodes */,
+				2F349AE02253624600174EC6 /* Resources */,
+				2F8EBA4E224CF21300669F07 /* main.m */,
+				2F8EBA4D224CF21300669F07 /* Info.plist */,
+			);
+			path = OverTheMountains;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F8EBA34224CF21200669F07 /* OverTheMountains */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8EBA52224CF21300669F07 /* Build configuration list for PBXNativeTarget "OverTheMountains" */;
+			buildPhases = (
+				2F8EBA31224CF21200669F07 /* Sources */,
+				2F8EBA32224CF21200669F07 /* Frameworks */,
+				2F8EBA33224CF21200669F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverTheMountains;
+			productName = OverTheMountains;
+			productReference = 2F8EBA35224CF21200669F07 /* OverTheMountains.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F8EBA2D224CF21200669F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = iCodeWoods;
+				TargetAttributes = {
+					2F8EBA34224CF21200669F07 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F8EBA30224CF21200669F07 /* Build configuration list for PBXProject "OverTheMountains" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F8EBA2C224CF21200669F07;
+			productRefGroup = 2F8EBA36224CF21200669F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F8EBA34224CF21200669F07 /* OverTheMountains */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F8EBA33224CF21200669F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FECE59E2251F6B700381E8B /* PlayerImages.atlas in Resources */,
+				2F8EBA47224CF21200669F07 /* Main.storyboard in Resources */,
+				2F8EBA49224CF21300669F07 /* Assets.xcassets in Resources */,
+				2F8EBA4C224CF21300669F07 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8EBA31224CF21200669F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8EBA44224CF21200669F07 /* GameViewController.m in Sources */,
+				2F349AD52253621200174EC6 /* RestartButton.m in Sources */,
+				2F349ADF2253622600174EC6 /* BeginScene.m in Sources */,
+				2F349ADE2253622600174EC6 /* GameScene.m in Sources */,
+				2F349AD82253621200174EC6 /* PillarNode.m in Sources */,
+				2F349AD72253621200174EC6 /* StickNode.m in Sources */,
+				2F349AD62253621200174EC6 /* PlayerNode.m in Sources */,
+				2F8EBA4F224CF21300669F07 /* main.m in Sources */,
+				2F8EBA3A224CF21200669F07 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F8EBA45224CF21200669F07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8EBA46224CF21200669F07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F8EBA4A224CF21300669F07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8EBA4B224CF21300669F07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F8EBA50224CF21300669F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F8EBA51224CF21300669F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F8EBA53224CF21300669F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W83QBV4Y9;
+				INFOPLIST_FILE = OverTheMountains/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCodeWoods.OverTheMountains;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2F8EBA54224CF21300669F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W83QBV4Y9;
+				INFOPLIST_FILE = OverTheMountains/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCodeWoods.OverTheMountains;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F8EBA30224CF21200669F07 /* Build configuration list for PBXProject "OverTheMountains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8EBA50224CF21300669F07 /* Debug */,
+				2F8EBA51224CF21300669F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8EBA52224CF21300669F07 /* Build configuration list for PBXNativeTarget "OverTheMountains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8EBA53224CF21300669F07 /* Debug */,
+				2F8EBA54224CF21300669F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F8EBA2D224CF21200669F07 /* Project object */;
+}
